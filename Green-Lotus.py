@@ -101,6 +101,7 @@ def bind():
         	except (ValueError, IndexError):
             		pass
 
+# To-Do: Use screen to manage connections. 
 def connect():
 	while True:
 		os.system('clear')
